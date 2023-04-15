@@ -117,6 +117,10 @@ main {
   align-items: end;
 }
 
+.flex-col-center {
+  align-items: center;
+}
+
 .flex-row-start {
   align-items: start;
 }
@@ -167,11 +171,19 @@ section {
 
 .left-side3 {
   width: 40%;
-  align-items: center;
 }
 
 .right-side3 {
   width: 25%;
+}
+
+.left-side4 {
+  width: 55%;
+  padding-left: 50px;
+}
+
+.right-side4 {
+  width: 40%;
 }
 
 /*-------------------------------------------------*/
@@ -215,6 +227,19 @@ section p {
   width: 250px;
 }
 
+.phone-img2 {
+  width: 150px;
+}
+
+.phone-img-bottom {
+  padding-top: 90px;
+  margin-right: 50px;
+}
+
+.phone-img-top {
+  padding-bottom: 90px;
+}
+
 .tile {
   width: 60px;
   height: 60px;
@@ -226,6 +251,27 @@ section p {
   color: white;
 }
 
+.block-section {
+  width: 100%;
+  height: 400px;
+  background-color: green;
+  border-radius: 20px;
+}
+
+.block-section p {
+  color: white;
+}
+
+.button-type1 {
+  width: 160px;
+  height: 50px;
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+}
+
 /*-------------------------------------------------*/
 
 h1.header-title {
@@ -233,6 +279,12 @@ h1.header-title {
   font-weight: 700;
   color: black;
   text-align: center;
+}
+
+h1.header-title2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
 }
 
 /*-------------------------------------------------*/
