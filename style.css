@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  color: #333;
+  background-image: url("img/bg1.jpg");
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+}
+
+header h1 {
+  padding-left: 100px;
+  color: green;
+}
+
+/*-------------------------------------------------*/
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-right: 100px;
+}
+
+nav div {
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+nav div:hover {
+  border-bottom: 3px solid green;
+  font-weight: bold;
+}
+
+nav div a {
+  text-decoration: none;
+  color: black;
+}
+
+header button {
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+header button:hover {
+  background-color: lightgreen;
+  font-weight: bold;
+}
+
+/*----------------------------------------------*/
+
+.google-play-button,
+.app-store-button {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  margin: 0 5px;
+  padding: 0;
+  transition: transform 0.2s ease-out;
+}
+
+.google-play-button:hover,
+.app-store-button:hover {
+  transform: translateY(-2px);
+}
+
+.google-play-button img,
+.app-store-button img {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+
+/*---------------------------------------------*/
+
+main {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*----------------------------------------------*/
+
+section {
+  margin-top: 100px;
+}
+
+.left-side {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.inner-left-side {
+  width: 70%;
+}
+
+.right-side {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+}
+
+.inner-right-side {
+  padding-left: 100px;
+}
+
+/*-------------------------------------------------*/
+
+.vertical-gap1 {
+  gap: 30px;
+}
+
+.vertical-gap2 {
+  gap: 10px;
+}
+
+h1.header-big {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+section p {
+  line-height: 1.8;
+  color: gray;
+}
+
+.phone-img {
+  width: 250px;
+}
+
+/*-------------------------------------------------*/
+
+h1.header-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+/*-------------------------------------------------*/
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ddd;
+}
