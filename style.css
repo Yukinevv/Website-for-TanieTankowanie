@@ -19,12 +19,14 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  padding: 20px;
+  padding: 15px;
 }
 
 header h1 {
-  padding-left: 100px;
+  padding-left: 300px;
   color: green;
+  font-weight: 800;
+  font-size: 36px;
 }
 
 /*-------------------------------------------------*/
@@ -32,12 +34,12 @@ header h1 {
 nav {
   display: flex;
   flex-direction: row;
-  gap: 20px;
-  padding-right: 100px;
+  gap: 5px;
+  padding-right: 300px;
 }
 
 nav div {
-  width: 140px;
+  width: 120px;
   height: 40px;
   text-align: center;
   padding-top: 8px;
@@ -113,16 +115,20 @@ main {
   flex-direction: column;
 }
 
-.flex-col-end {
+.flex-col-end-horizontal {
   align-items: end;
 }
 
-.flex-col-center {
+.flex-col-center-horizontal {
   align-items: center;
 }
 
-.flex-row-start {
+.flex-row-start-vertical {
   align-items: start;
+}
+
+.flex-row-center-horizontal {
+  justify-content: center;
 }
 
 .flex-space-between {
@@ -135,23 +141,12 @@ section {
   margin-top: 100px;
 }
 
-.left-side {
-  width: 50%;
-  display: flex;
-  justify-content: end;
+.left-side1 {
+  width: 45%;
+  padding-right: 100px;
 }
 
-.inner-left-side {
-  width: 75%;
-}
-
-.right-side {
-  width: 50%;
-  display: flex;
-  justify-content: start;
-}
-
-.inner-right-side {
+.right-side1 {
   padding-left: 100px;
 }
 
@@ -186,6 +181,14 @@ section {
   width: 40%;
 }
 
+.left-side5 {
+  width: 30%;
+}
+
+.right-side5 {
+  width: 60%;
+}
+
 /*-------------------------------------------------*/
 
 .border {
@@ -196,8 +199,8 @@ section {
   text-align: center;
 }
 
-.gap50 {
-  gap: 50px;
+.gap100 {
+  gap: 100px;
 }
 
 .gap30 {
@@ -290,7 +293,38 @@ h1.header-title2 {
 /*-------------------------------------------------*/
 
 footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #ddd;
+  padding-top: 50px;
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-bottom: 15px;
+  background-color: #333;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer p {
+  line-height: 1.5;
+}
+
+footer h1 {
+  line-height: 1.1;
+}
+
+footer h3 {
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 1px solid darkgray;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+footer button {
+  width: 25px;
+  height: 25px;
 }
