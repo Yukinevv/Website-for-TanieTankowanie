@@ -7,17 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tanie Tankowanie</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3ba58f8d5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
+    <header class="flex-row flex-space-between">
         <h1>Tanie Tankowanie</h1>
-        <nav>
+        <nav class="flex-row">
             <div><a href="#">Strona główna</a></div>
             <div><a href="#">O nas</a></div>
             <div><a href="#">Oferta</a></div>
             <div><a href="#">Kontakt</a></div>
-            <button>Help center</button>
+            <button>Centrum pomocy</button>
         </nav>
     </header>
 
@@ -32,14 +33,27 @@
                         quam, ducimus odio rem consequuntur voluptatibus officiis ad exercitationem aperiam ut ipsa
                         optio
                         quo placeat sapiente atque.</p>
-                    <div>
-                        <a href="#" class="google-play-button">
+                    <div class="flex-row gap10">
+                        <!--<a href="#" class="google-play-button">
                             <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
                                 alt="Google Play Download">
                         </a>
                         <a href="#" class="app-store-button">
                             <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
                                 alt="Download on the App Store">
+                        </a>-->
+                        <a href="https://play.google.com/store/games?gl=PL" target="_blank" class="store-link">
+                            <div class="flex-row store-button flex-row-media">
+                                <i class="fa-brands fa-google-play"></i>
+                                <p>GET IN ON<br /><span style="font-size: 18px;">Google Play</span></p>
+                            </div>
+                        </a>
+                        <a href="https://www.apple.com/pl/app-store/" target="_blank" class="store-link">
+                            <div class="flex-row store-button flex-row-media">
+                                <i class="fa-brands fa-apple" style="padding-left: 25px;"></i>
+                                <p style="padding-left: 12px;">Download on the<br /><span style="font-size: 18px;">App
+                                        store</span></p>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -49,13 +63,13 @@
             </div>
         </section>
 
-        <section class="flex-col gap30">
+        <section class="flex-col">
             <h1 class="header-title">Lorem ipsum dolor sit amet.</h1>
             <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eveniet esse id eum
                 fugiat nostrum, optio recusandae aliquid animi perspiciatis tenetur, omnis voluptatibus quod tempora
                 ducimus impedit consequuntur? Dolore, enim?</p>
 
-            <div class="flex-row">
+            <div class="flex-row flex-space-between">
                 <div class="flex-col gap30 left-side2">
                     <div class="flex-col flex-col-end-horizontal gap10">
                         <div class="tile">1</div>
@@ -64,23 +78,23 @@
                             ad. Iure perferendis commodi sit aliquid culpa.</p>
                     </div>
                     <div class="flex-col flex-col-end-horizontal gap10">
-                        <div class="tile">3</div>
+                        <div class="tile">2</div>
                         <h3>Lorem, ipsum dolor.</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse consectetur commodi libero
                             illo, distinctio vitae veniam corporis. Nisi, consectetur enim.</p>
                     </div>
                 </div>
-                <div class="flex-col center-div">
+                <div class="flex-col flex-row-center-horizontal">
                     <img src="img/phone_app.png" alt="" class="phone-img">
                 </div>
                 <div class="flex-col gap30 right-side2">
-                    <div class="flex-col gap10">
-                        <div class="tile">2</div>
+                    <div class="flex-col gap10 flex-col-center-horizontal-media">
+                        <div class="tile">3</div>
                         <h3>Lorem, ipsum dolor.</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, praesentium minima sunt
                             aut delectus ab ex inventore quaerat. Ipsa, sit?</p>
                     </div>
-                    <div class="flex-col gap10">
+                    <div class="flex-col gap10 flex-col-center-horizontal-media">
                         <div class="tile">4</div>
                         <h3>Lorem, ipsum dolor.</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut quae adipisci iure quis labore
@@ -90,7 +104,7 @@
             </div>
         </section>
 
-        <section class="flex-col gap30">
+        <section class="flex-col">
             <h1 class="header-title">Lorem ipsum dolor sit amet.</h1>
             <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eveniet esse id eum
                 fugiat nostrum, optio recusandae aliquid animi perspiciatis tenetur, omnis voluptatibus quod tempora
@@ -101,22 +115,22 @@
                     <img src="img/phone_app.png" alt="" class="phone-img">
                 </div>
                 <div class="flex-col gap30 right-side3">
-                    <div class="flex-col gap10">
+                    <div class="flex-col gap10 flex-col-center-horizontal-media">
                         <div class="tile">1</div>
                         <h3>Lorem, ipsum dolor.</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sapiente perferendis
                             molestias blanditiis tenetur dolorem dolorum ab vitae in neque.</p>
                     </div>
-                    <div class="flex-col gap10">
-                        <div class="tile">3</div>
+                    <div class="flex-col gap10 flex-col-center-horizontal-media">
+                        <div class="tile">2</div>
                         <h3>Lorem, ipsum dolor.</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore dicta eveniet tempore
                             architecto, corrupti dignissimos ullam dolor. Optio, ullam vero?</p>
                     </div>
                 </div>
                 <div class="flex-col gap30 right-side3">
-                    <div class="flex-col gap10">
-                        <div class="tile">2</div>
+                    <div class="flex-col gap10 flex-col-center-horizontal-media">
+                        <div class="tile">3</div>
                         <h3>Lorem, ipsum dolor.</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error voluptates dolores aspernatur
                             explicabo porro eveniet, voluptatum totam quos unde hic!</p>
@@ -176,10 +190,16 @@
         <hr>
         <div class="flex-row flex-space-between">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, minus.</p>
-            <div class="flex-row gap20">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
+            <div class="flex-row gap20 flex-row-media">
+                <button>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </button>
+                <button>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </button>
+                <button>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </button>
             </div>
         </div>
     </footer>
