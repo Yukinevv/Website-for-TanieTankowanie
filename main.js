@@ -22,3 +22,31 @@ function handleResize() {
 }
 
 window.addEventListener("resize", handleResize);
+
+//---------------------------------------------------------------------
+
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.menu');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    menu.classList.toggle('active');
+});
+
+document.querySelectorAll('.menu div').forEach(n => {
+    n.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        menu.classList.remove('active');
+    });
+});
+
+//---------------------------------------------------------------------
+
+const toTop = document.querySelector('.to-top');
+
+window.addEventListener('scroll', () => {
+    let windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+    if (window.pageYOffset > 1800 && windowWidth > 1350) toTop.classList.add('active');
+    else toTop.classList.remove('active');
+});

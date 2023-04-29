@@ -5,48 +5,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Tanie Tankowanie Najtansze paliwo Stacje benzynowe Oszczędzenie pieniędzy najtaniej aplikacja">
     <title>Tanie Tankowanie</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/d3ba58f8d5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="flex-row flex-space-between">
-        <h1>Tanie Tankowanie</h1>
-        <nav class="flex-row">
-            <div><a href="#">Strona główna</a></div>
-            <div><a href="#">O nas</a></div>
-            <div><a href="#">Oferta</a></div>
-            <div><a href="#">Kontakt</a></div>
-            <button>Centrum pomocy</button>
+    <a href="#" name="strona-glowna"></a>
+    <a href="#" class="to-top">
+        <img src="img/top-icon.png" alt="">
+    </a>
+
+    <header class="flex-row flex-justify-center flex-align-center flex-row-media">
+        <a href="#strona-glowna">
+            <h1>Tanie Tankowanie</h1>
+        </a>
+        <nav class="flex-row gap20 menu">
+            <a href="#strona-glowna">
+                <div class="menu-option">Strona główna</div>
+            </a>
+            <a href="#kontakt">
+                <div class="menu-option">Kontakt</div>
+            </a>
+            <a href="#centrum-pomocy">
+                <div class="menu-button">Centrum pomocy</div>
+            </a>
         </nav>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </header>
 
     <main>
 
-        <section class="flex-row flex-row-center-horizontal">
+        <section class="flex-row flex-justify-center flex-align-center">
             <div class="left-side1">
                 <div class="flex-col gap30">
                     <h1 class="header-big">Pobierz aplikację i tankuj najtaniej w Twojej okolicy!</h1>
                     <p>Dołącz do nas, aby cieszyć się aktualnymi cenami paliw na stacjach. Stań się jednym z wielu
                         użytkowników, którzy biorą aktywny udział w tworzeniu społeczności Tanie Tankowanie.</p>
-                    <div class="flex-row gap10">
-                        <!--<a href="#" class="google-play-button">
-                            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-                                alt="Google Play Download">
-                        </a>
-                        <a href="#" class="app-store-button">
-                            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-                                alt="Download on the App Store">
-                        </a>-->
-                        <a href="https://play.google.com/store/games?gl=PL" target="_blank" class="store-link">
-                            <div class="flex-row store-button flex-row-media">
+                    <div class="flex-row gap10 flex-row-media flex-justify-center-media gap20-media">
+                        <a href="https://play.google.com/store/apps/details?id=pl.etanietankowanie.etanietankowanie"
+                            target="_blank" class="store-link">
+                            <div class="flex-row store-button flex-align-center flex-row-media">
                                 <i class="fa-brands fa-google-play"></i>
                                 <p>Pobierz w<br /><span style="font-size: 18px;">Google Play</span></p>
                             </div>
                         </a>
                         <a href="https://www.apple.com/pl/app-store/" target="_blank" class="store-link">
-                            <div class="flex-row store-button flex-row-media">
+                            <div class="flex-row store-button flex-align-center flex-row-media">
                                 <i class="fa-brands fa-apple" style="padding-left: 25px;"></i>
                                 <p style="padding-left: 12px;">Pobierz w<br /><span style="font-size: 18px;">App
                                         store</span></p>
@@ -64,29 +75,29 @@
             <h1 class="header-title">Jak działa Tanie Tankowanie?</h1>
             <p class="text-center">Pobierz aplikację ze sklepu i zacznij czerpać zyski już dziś.</p>
 
-            <div class="flex-row flex-space-between flex-row-start-vertical">
+            <div class="flex-row flex-space-between">
                 <div class="flex-col gap30 left-side2">
-                    <div class="flex-col flex-col-end-horizontal gap10">
+                    <div class="flex-col gap10 flex-align-end flex-align-center-media">
                         <div class="tile">1</div>
                         <h3>Załóż konto</h3>
                         <p>Załóż konto w aplikacji za pomocą adresu e-mail, konta Google lub Facebook.</p>
                     </div>
-                    <div class="flex-col flex-col-end-horizontal gap10">
+                    <div class="flex-col gap10 flex-align-end flex-align-center-media">
                         <div class="tile">3</div>
                         <h3>Skorzystaj z mapy</h3>
                         <p>Wybierz odpowiednią dla siebie stację, ustaw nawigację i ruszaj w drogę!</p>
                     </div>
                 </div>
-                <div class="flex-col flex-row-center-horizontal">
+                <div class="flex-col flex-align-center-media">
                     <img src="img/ekran4.png" alt="" class="phone-img3">
                 </div>
                 <div class="flex-col gap30 right-side2">
-                    <div class="flex-col gap10 flex-col-center-horizontal-media">
+                    <div class="flex-col gap10 flex-align-center-media">
                         <div class="tile">2</div>
                         <h3>Dodaj pojazd</h3>
                         <p>Wprowadź dane o pojeździe, aby dostosować aplikację według Twoich potrzeb</p>
                     </div>
-                    <div class="flex-col gap10 flex-col-center-horizontal-media">
+                    <div class="flex-col gap10 flex-align-center-media">
                         <div class="tile">4</div>
                         <h3>Wykonuj zdjęcia pylonom</h3>
                         <p>Zdobywaj punkty za wykonane zdjęcia, rywalizuj z innymi użytkownikami, a za zdobyte punkty
@@ -103,26 +114,26 @@
                 wpływ na tworzenie społeczności. Informacje prezentowane w Aplikacji są wynikiem aktywności
                 użytkowników. </p>
 
-            <div class="flex-row flex-row-start-vertical flex-space-between">
-                <div class="flex-col flex-col-center-horizontal left-side3">
+            <div class="flex-row flex-space-between">
+                <div class="flex-col left-side3 flex-align-center-media">
                     <img src="img/ekrany.png" alt="" class="phone-img4">
                 </div>
                 <div class="flex-col gap30 right-side3">
-                    <div class="flex-row gap30 flex-row-start-vertical">
-                        <div class="flex-col gap10 inner-right-side3-left flex-col-center-horizontal-media">
+                    <div class="flex-row gap30">
+                        <div class="flex-col gap10 inner-right-side3-left flex-align-center-media">
                             <div class="tile">1</div>
                             <h3>Udaj się na stację paliw</h3>
                             <p>Wprowadź dane o pojedzie, aby dostosować aplikację według Twoich potrzeb.</p>
                         </div>
-                        <div class="flex-col gap10 inner-right-side3-right flex-col-center-horizontal-media">
+                        <div class="flex-col gap10 inner-right-side3-right flex-align-center-media">
                             <div class="tile">2</div>
                             <h3>Wykonaj poprawne zdjęcie</h3>
                             <p>Po wykonaniu zdjęcia jest przetwarzane przez nowoczesne technologie, w tym sztuczną
                                 inteligencję. Na zakończenie procesu otrzymasz punkty.</p>
                         </div>
                     </div>
-                    <div class="flex-row gap30 flex-row-start-vertical">
-                        <div class="flex-col gap10 inner-right-side3-left flex-col-center-horizontal-media">
+                    <div class="flex-row gap30">
+                        <div class="flex-col gap10 inner-right-side3-left flex-align-center-media">
                             <div class="tile">3</div>
                             <h3>Zyskaj punkty</h3>
                             <p>Po wykonaniu zdjęcia jest przetwarzane przez nowoczesne technologie, w tym sztuczną
@@ -134,11 +145,26 @@
         </section>
 
         <section class="flex-row block-section flex-space-between">
-            <div class="flex-col gap20 left-side4">
+            <div class="flex-col gap30 left-side4 flex-justify-center">
                 <h1 class="header-title3">Pobierz Tanie Tankownie</h1>
                 <p>Tanie Tankowanie to projekt społeczny będący odpowiedzią na wysokie ceny paliw. Głównych czynnikiem
                     jest zauważalna różnica cen występująca na stacjach położonych w bliskiej odległości od siebie.</p>
-                <!--<button class="button-type1">Get started</button>-->
+                <div class="flex-row gap10 flex-row-media flex-justify-center-media gap20-media">
+                    <a href="https://play.google.com/store/apps/details?id=pl.etanietankowanie.etanietankowanie"
+                        target="_blank" class="store-link">
+                        <div class="flex-row store-button flex-align-center flex-row-media">
+                            <i class="fa-brands fa-google-play"></i>
+                            <p>Pobierz w<br /><span style="font-size: 18px;">Google Play</span></p>
+                        </div>
+                    </a>
+                    <a href="https://www.apple.com/pl/app-store/" target="_blank" class="store-link">
+                        <div class="flex-row store-button flex-align-center flex-row-media">
+                            <i class="fa-brands fa-apple" style="padding-left: 25px;"></i>
+                            <p style="padding-left: 12px;">Pobierz w<br /><span style="font-size: 18px;">App
+                                    store</span></p>
+                        </div>
+                    </a>
+                </div>
             </div>
             <div class="right-side4">
                 <img src="img/drogi.png" alt="" class="ways-img">
@@ -149,30 +175,35 @@
 
     </main>
 
+    <a href="#" name="kontakt"></a>
+    <a href="#" name="centrum-pomocy"></a>
+
     <footer class="flex-col">
         <div class="flex-row flex-space-between">
-            <div class="flex-col gap10 left-side5">
+            <div class="flex-col gap20 gap10-media left-side5">
                 <h1 class="header-title2">TANIE<br />TANKOWANIE</h1>
                 <p>Autorem projektu jest Zespół nr 3 z UMK WMII. Projekt powstał w ramach przedmiotu Programowanie
                     Zespołowe 2022/2023.</p>
             </div>
-            <div class="flex-row right-side5">
+            <div class="flex-row right-side5 flex-space-between">
                 <div class="flex-col gap10">
                     <h3>Kontakt</h3>
-                    <a href="">etanietankowanie@gmail.com</a>
+                    <a href="https://www.google.com/intl/pl/gmail/about/" target="_blank">etanietankowanie@gmail.com</a>
                 </div>
                 <div class="flex-col gap10">
-                    <h3>Linki</h3>
-                    <a href="">Regulamin aplikacji</a>
-                    <a href="">Polityka prywatności</a>
-                    <a href="">Usunięcie konta</a>
+                    <h3>Centrum pomocy</h3>
+                    <a href="https://etanietankowanie.pl/regulamin_aplikacji.txt" target="_blank">Regulamin
+                        aplikacji</a>
+                    <a href="https://etanietankowanie.pl/polityka_prywatnosci.txt" target="_blank">Polityka
+                        prywatności</a>
+                    <a href="https://etanietankowanie.pl/usun_swoje_dane/" target="_blank">Usunięcie konta</a>
                 </div>
             </div>
         </div>
         <hr>
         <!--<div class="flex-row flex-space-between">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, minus.</p>
-            <div class="flex-row gap20 flex-row-media">
+            <div class="flex-row gap20">
                 <button>
                     <i class="fa-brands fa-facebook-f"></i>
                 </button>
