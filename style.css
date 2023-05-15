@@ -43,6 +43,11 @@ header h1 {
   font-size: 36px;
 }
 
+.header-img {
+  width: 60px;
+  height: 60px;
+}
+
 .menu-option {
   width: 120px;
   height: 40px;
@@ -93,6 +98,12 @@ header h1 {
   transition: all 0.3s ease-in-out;
 }
 
+@media (max-width: 600px) {
+  .menu {
+    top: 120px !important;
+  }
+}
+
 @media (max-width: 1350px) {
   .hamburger {
     display: block;
@@ -113,7 +124,7 @@ header h1 {
   .menu {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 75px;
     width: 100%;
     transition: 0.4s;
     background-color: white;
@@ -353,7 +364,7 @@ section p {
 .block-section {
   height: 400px;
   background-color: #ffb114;
-  border-radius: 20px;
+  border-radius: 50px;
 }
 
 .block-section p {
@@ -441,6 +452,12 @@ footer button:hover {
 
   .flex-justify-center-media {
     justify-content: center;
+  }
+}
+
+@media (min-width: 1350px) {
+  .margin-top-media {
+    margin-top: 55px;
   }
 }
 
